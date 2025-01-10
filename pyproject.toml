@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "requests"
+version = "2.32.3"
+description = "requests library"
+authors = ["trop3n <jasondkimm@proton.me>"]
+license = "GNU Public License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
